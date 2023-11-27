@@ -1,0 +1,1536 @@
+/************************************
+    PAGE STRUCTURE STYLES 
+*************************************/
+#c21_Product_Filters_1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#dab-value-prop-container{
+    width: 640px;
+}
+
+#DAB-Lift-Booking-Widget{
+   height:100%;
+   width: 425px;
+   background: #fff;
+   border-radius: 8px;
+   margin: 0 15px;
+   overflow: hidden;
+   padding: 20px 30px 20px 30px;
+   position: relative;
+   left: 4%;
+   margin-top: 1%;
+   border-radius: 8px;
+   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+#buy_early_save_25{
+    font-size: 24px;
+    /* font-family: prompt; */
+}
+.dab-lift-ticket-image-container{
+    width: 655px;
+    height: 343px;
+    /* gap: 20px; */
+}
+.pass_configuration__button_selection {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 15px 0 10px;
+}
+#number_of_days_ski_or_ride_text{
+    text-align: center;
+    color: green;
+}
+/* CSS for title items (i.e. "CHOOSE PEAK DATES") */ 
+.pass_configuration__button_selection__button_label {
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.c146__holidaylabel--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #333;
+    letter-spacing: .02em;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.btn-tooltip {
+    background: 0 0;
+    border: none;
+    padding: 0;
+    text-align: left;
+    text-align: unset;
+}
+.icon-global-info, .icon-global-question {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    height: 15px;
+    width: 15px;
+}
+
+/* interactable items in widget */
+.pass_configuration__button_selection__buttons {
+    display: flex;
+}
+.pass_configuration__button_selection__buttons__option[aria-checked=true] {
+    background: #fff;
+    border: 2px solid #000;
+}
+.pass_configuration__button_selection__buttons__option--left {
+    border-radius: 3px 0 0 3px;
+}
+.pass_configuration__button_selection__buttons__option {
+    background: grey;
+    border: solid 0.5px grey;
+    cursor: pointer;
+    height: 52px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    padding-top: 8px;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pass_configuration__button_selection__buttons .radio+.radio {
+    margin-top: 10px;
+}
+.pass_configuration__button_selection__buttons__option[aria-checked=false] {
+    background: #eee;
+    border: 1px solid #ccc;
+}
+.pass_configuration__button_selection__buttons__option--right {
+    border-radius: 0 3px 3px 0;
+}
+.pass_configuration__button_selection__buttons__option {
+    background: grey;
+    border: solid 0.5px grey;
+    cursor: pointer;
+    height: 52px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    padding-top: 8px;
+}
+input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-left: -20px;
+}
+.radio--custom input {
+    opacity: 0;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    line-height: normal;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+/* CHOOSE YOUR DAYS */
+.pass_configuration__day_selector {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 0;
+    width: 100%;
+    /* added */
+    box-sizing: border-box;
+}
+/* DAY SELECTIONS */
+.pass_configuration__day_selector label:first-child {
+    border-radius: 3px 0 0 3px;
+    margin-top: -5px;
+}
+.pass_configuration__day_selector__button[aria-checked=false] {
+    background: #eee;
+    border: 1px solid #ccc;
+    /* added */
+    margin-top: -5px;
+}
+.pass_configuration__day_selector__button[aria-checked=true] {
+    background: #fff;
+    border: 2px solid #000;
+}
+.pass_configuration__day_selector__button {
+    align-items: center;
+    border: solid 0.5px grey;
+    cursor: pointer;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    min-width: 25px;
+    outline: 0;
+}
+/* TICKET SELECTIONS (ADULT, CHILD, TEEN SENIOR */
+.pass_configuration__pass_products {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 15px 0 10px;
+}
+.pass_configuration__product {
+    display: flex;
+    margin: 25px 0;
+}
+.pass_configuration__product__pricing {
+    text-transform: uppercase;
+    width: 75%;
+    box-sizing: 75%;
+}
+.pass_configuration__product__pricing__price {
+    margin-bottom: 6px;
+}
+.pass_configuration__product__pricing__age_info {
+    margin-bottom: 6px;
+}
+.c146__agelabel--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #333;
+    letter-spacing: .1em;
+}
+.c146__age--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #333;
+    letter-spacing: .1em;
+}
+.pass_configuration__product__pricing__price_per_day {
+    margin-bottom: 6px;
+}
+.c146__perday--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1;
+    color: #006cd1;
+    letter-spacing: .1em;
+    box-sizing: border-box;
+}
+.number_count_input_react {
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.number_count_input_react__button {
+    background-color: transparent;
+    border: 2px solid #545454;
+    border-radius: 12px;
+    color: #545454;
+    font-size: 1.4rem;
+    font-weight: 400;
+    height: 24px;
+    padding: 0;
+    position: relative;
+    width: 24px;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.number_count_input_react__count {
+    padding: 0;
+    width: 48px;
+    border: 0;
+    background: 0 0;
+    max-width: 60px;
+    text-align: center;
+}
+.c40__qty--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.6rem;
+    line-height: 1;
+    color: #10325a;
+    letter-spacing: .01em;
+}
+/* PAYMENT TOTALS */
+.pass_configuration__payment_totals {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.pass_configuration__payment_totals__total {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.pass_configuration__payment_totals__label {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.c143__label--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #333;
+    letter-spacing: 0;
+}
+.c143__subtotal--v1 {
+    font-family: Prompt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.6rem;
+    line-height: 1;
+    color: #1b284b;
+    letter-spacing: .01em;
+}
+/* ADD TO CART BUTTON */
+.primaryCTA:hover {
+    background: linear-gradient(to bottom,#ffc14b 0,#ffc14b 50%,#fcb736 50%,#fcb736 100%);
+    color: #10325a;
+    text-decoration: none;
+}
+.primaryCTA {
+    padding: 19px;
+    width: 160px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .26em;
+    color: #10325a;
+    background: linear-gradient(to bottom,#ffaf18 0,#ffaf18 50%,#fba504 50%,#fba504 100%);
+    font-family: Prompt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+.pass_configuration__add_to_cart {
+    margin: 20px 0;
+    width: 100%;
+}
+
+/************************************
+    VALUE PROP STYLES 
+*************************************/
+@media (min-width: 1200px){
+    .container.component_container .container.component_container, .container.splitWidth .container.component_container, .global_modal .container.component_container, .tabbed_container__content .container.component_container {
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .valueProps .valueProp__single__animated--animate {
+        left: 0;
+        opacity: 1;
+    }
+    .valueProps .valueProp__single {
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        display: flex;
+        max-width: 100%;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .valueProps-container-inner {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 0;
+        padding: 0 10px;
+    }
+    .valueProps .valueProp__description, .valueProps .valueProp__title {
+        word-wrap: break-word;
+        width: 535px;
+    }
+    .valueProps .valueProp__single:not(.valueProp__single__hide_description) {
+        width: 100%;
+        /* width: 325px; */
+    }
+    .valueProps .valueProp__single:nth-of-type(2).valueProp__single__animated--animate {
+        animation: fadeInBorderTop 1s 1.8s forwards;
+    }
+    .valueProps .valueProp__single:nth-of-type(3).valueProp__single__animated--animate {
+        animation: fadeInBorderTop 1s 1.2s forwards;
+    }
+}
+
+/************************************
+    CALENDAR WIDGET STYLES 
+*************************************/
+
+/************************************
+    NUMBER OF DAYS STYLES 
+*************************************/
+
+/************************************
+    TICKET QUANTITY STYLES
+*************************************/
+
+/************************************
+    TOTAL AND SAVINGS STYLES 
+*************************************/
+.over_same_day_prices_savings_text{
+    width: 249px;
+    height: 28px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: #e3f3eb;
+}
+.save_x_over_same_day_prices{
+    font: prompt;
+    font-weight: 500;
+    text-align: center;
+    size: 13px;
+    line-height: 19.5px;
+    flex-direction: row;
+    display: inline-block;
+}
+#save_x{
+    color: #1d8541;
+}
+#over_same_day_prices{
+    color: #7cbc8c;
+}
+
+
+/************************************
+    MOBILE-SPECIFIC STYLES 
+*************************************/
+@media screen and (max-width: 767px) {
+    
+}
+
+
+/************************************
+    TABLET-SPECIFIC STYLES
+*************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+}
+
+/************************************
+     DESKTOP-SPECIFIC STYLES
+*************************************/
+
+@media screen and (min-width: 1200px) {
+    
+}
+
+/************************************
+    CALENDAR CARD CSS STYLES
+*************************************/
+
+.calendarCard__container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px
+  }
+  
+  .calendarCard__container .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+  }
+  
+  .calendarCard__container .slick-slide {
+    margin: 0 7px
+  }
+  
+  @media all and (min-width: 768px) and (max-width:1199px) {
+    .calendarCard__container .slick-slide {
+      margin:0 3px
+    }
+  }
+  
+  .calendarCard__container .slick-slide[aria-hidden=true] .calendarCard__date_selector__button {
+    box-shadow: none
+  }
+  
+  .calendarCard__container .slick-slide input[type=checkbox],.calendarCard__container .slick-slide input[type=radio] {
+    margin-left: 0
+  }
+  
+  .calendarCard__container .slick-slider {
+    margin: 0 8%
+  }
+  
+  @media all and (max-width: 1199px) {
+    .calendarCard__container .slick-slider {
+      margin:0 3%
+    }
+  }
+  
+  .calendarCard__container .slick-track {
+    display: flex
+  }
+  
+  .calendarCard__date_selector__arrow {
+    background: 0 0;
+    border: none;
+    color: #474e52;
+    font-size: 19px;
+    padding: 0;
+    position: absolute;
+    top: 74px;
+    transform: translateY(-45px);
+    z-index: 1
+  }
+  
+  @media all and (min-width: 768px) and (max-width:1199px) {
+    .calendarCard__date_selector__arrow {
+      font-size:12.5px;
+      top: 78px
+    }
+  }
+  
+  .calendarCard__date_selector__arrow.slick-disabled {
+    color: #ccc
+  }
+  
+  @media all and (min-width: 768px) and (max-width:991px) {
+    .calendarCard__date_selector__arrow {
+      font-size:13px;
+      top: 80px
+    }
+  }
+  
+  .calendarCard__date_selector__button {
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    cursor: pointer;
+    height: 62px;
+    padding-top: 10.5px;
+    justify-content: center;
+    width: 100%;
+    background: #fff
+  }
+  
+  .calendarCard__date_selector__button__content {
+    align-items: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    font-family: Prompt,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 1;
+    text-transform: uppercase
+  }
+  
+  .calendarCard__date_selector__button__content__date {
+    font-size: 14px
+  }
+  
+  .calendarCard__date_selector__button__content__day {
+    font-size: 10px;
+    margin-top: 6px
+  }
+  
+  .calendarCard__date_selector__button__content__desc {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px
+  }
+  
+  .calendarCard__date_selector__button__content__sold_out {
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    line-height: 1.1;
+    text-align: center;
+    width: 10px
+  }
+  
+  .calendarCard__date_selector__button__content__month {
+    font-size: 12px;
+    padding-bottom: 2px
+  }
+  
+  .calendarCard__date_selector__button__multi_day {
+    border: 2px dashed #006cd1;
+    padding-top: 8px
+  }
+  
+  .calendarCard__date_selector__button__sold_out {
+    background: #dededc
+  }
+  
+  .calendarCard__date_selector__button__wide {
+    width: 63px
+  }
+  
+  .calendarCard__date_selector__button[aria-checked=true] {
+    background: #006cd1
+  }
+  
+  .calendarCard__date_selector__button[aria-checked=true] .calendarCard__date_selector__button__content {
+    color: #fff
+  }
+  
+  .calendarCard__date_selector__button input[type=radio] {
+    visibility: hidden
+  }
+  
+  .calendarCard__date_selector__prev_arrow {
+    left: 7%
+  }
+  
+  @media all and (max-width: 1199px) {
+    .calendarCard__date_selector__prev_arrow {
+      left:3%
+    }
+  }
+  
+  .calendarCard__date_selector__next_arrow {
+    right: 7%
+  }
+  
+  @media all and (max-width: 1199px) {
+    .calendarCard__date_selector__next_arrow {
+      right:3%
+    }
+  }
+  
+  .calendarCard__date_selector .inline_loading_spinner {
+    transform: scale(.5)!important
+  }
+  .pass_configuration__product {
+    margin: 10px 0 10px 0 !important;
+  }
+
+  #lessonBooking__right-col{
+    margin-left: 25px;
+    box-shadow: 0 0 5px 1px #ccc;
+    border-radius: 10px;
+    padding: 20px 30px !important;
+    width: 425px !important;
+    height: 100%;
+  }
+
+  .lessonBooking{
+    justify-content: space-around !important;
+  }
+
+ .dab_lift_ticket_title{
+    color: var(--frl-474-e-52-frl-dark-gray, #474E52);
+    font-family: Prompt;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 38px */
+    letter-spacing: 3.04px;
+ }
+
+ .dab_lift_ticket_subtitle{
+    color: var(--frl-474-e-52-frl-dark-gray, #474E52);
+    font-family: Prompt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+ }
+
+
+/************************************
+    LESSON BOOKING CSS STYLES
+*************************************/
+@media screen and (max-width: 1199px) {
+    .body__overlay--shown {
+      z-index:1000!important
+    }
+  }
+  
+  .datePicker--modal {
+    top: 125px
+  }
+  
+  #lessonBookingContainer .lessonBooking {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking {
+      flex-direction:row;
+      justify-content: space-between;
+      margin-bottom: 60px
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__left-col {
+    padding: 0 15px;
+    width: 100%
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking__left-col {
+      padding:0 0 0 15px;
+      width: 370px
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    #lessonBookingContainer .lessonBooking__left-col {
+      width:492px
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking__left-col {
+      width:610px
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__left-col img {
+    max-width: 100%
+  }
+  
+  #lessonBookingContainer .lessonBooking__left-col__description {
+    margin-top: 30px
+  }
+  
+  #lessonBookingContainer .lessonBooking__left-col__description__read-more-button {
+    background: 0 0;
+    border: none;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-transform: uppercase
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking__left-col__description__read-more-button {
+      display:none
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col {
+    margin-top: 32px;
+    padding: 0;
+    width: 100%
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking__right-col {
+      margin-top:0;
+      padding: 0 15px 0 0;
+      width: 350px
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    #lessonBookingContainer .lessonBooking__right-col {
+      width:448px
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking__right-col {
+      width:530px
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__inner {
+    background: #fff;
+    height: 100%;
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__inner .divider {
+    background-color: #ccc;
+    height: 1px;
+    margin-bottom: -10px;
+    margin-top: 38px;
+    width: 100%
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__inner .error {
+    margin-bottom: 0;
+    margin-top: 30px
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__inner__sticky_wrapper {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    position: sticky;
+    transition: padding-top .3s ease,padding-bottom .3s ease;
+    z-index: 1500
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__inner__sticky_wrapper--active {
+    padding-top: 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__title_section {
+    text-transform: uppercase
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__filter_title {
+    color: #006cd1;
+    margin: 10px 0 0px;
+    font-family: Prompt;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 23.8px */
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__filter_title--border-bottom {
+    border-bottom: 2px solid #006cd1;
+    margin: 10px 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__sub_heading_title {
+    align-items: center;
+    color: #333;
+    display: flex
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__sub_heading {
+    flex: 0 0 auto
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container {
+    width: 100%
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container {
+      width:345px
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container .lessonBooking__right-col__filter_title {
+    margin-bottom: 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container .calendarCard__container {
+    border-bottom: none;
+    padding-bottom: 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container .calendarCard__container .slick-slider {
+    margin: 0 5%;
+    position: relative
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container .calendarCard__container .slick-slider .slick-slide {
+    margin: 0 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container .calendarCard__container .calendarCard__date_selector .calendarCard__date_selector__prev_arrow {
+    left: 0;
+    margin-left: -15px
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container .calendarCard__container .calendarCard__date_selector .calendarCard__date_selector__next_arrow {
+    margin-right: -17px;
+    right: 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    position: relative
+  }
+  
+  @media all and (max-width: 338px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker {
+      flex-direction:column
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker .inputfieldlabel {
+    color: #545454
+  }
+  
+  @media all and (max-width: 338px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker .inputfieldlabel:first-child {
+      margin-bottom:5px
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker .verticalDivider {
+    padding: 0 5px
+  }
+  
+  @media all and (max-width: 338px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker .verticalDivider {
+      display:none
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker__change-button {
+    background: 0 0;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    z-index: 4
+  }
+  
+  @media all and (max-width: 767px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__date-picker__change-button {
+      z-index:2
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container {
+    position: absolute
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container input.form-control {
+    left: -9999px
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container .input-group-addon {
+    visibility: hidden
+  }
+  
+  @media all and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container .bootstrap-datetimepicker-widget {
+      right:-60px!important;
+      top: -10px!important
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container .bootstrap-datetimepicker-widget .dropdown-menu.bottom::after {
+      border-bottom:none
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container .datePicker .bootstrap-datetimepicker-widget.dropdown-menu.bottom::after {
+      border-bottom:none
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container .datePicker--active {
+    display: none
+  }
+  
+  #lessonBookingContainer .lessonBooking__right-col__date_selection_container__inline_datepicker_container .datePicker--active.datePicker--modal {
+    display: inherit
+  }
+  
+  #lessonBookingContainer .lessonBooking__emr_eligible {
+    background: 0 0;
+    border: none;
+    color: #161d65;
+    display: flex;
+    padding-left: 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__emr_eligible__text {
+    padding-left: 10px;
+    padding-top: 1px;
+    text-transform: uppercase
+  }
+  
+  #lessonBookingContainer .lessonBooking__lesson_description_container {
+    border: 1px solid #666;
+    padding: 12px
+  }
+  
+  #lessonBookingContainer .lessonBooking__lesson_description_container--desktop {
+    display: none
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking__lesson_description_container--desktop {
+      display:block
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__lesson_description_container--mobile {
+    display: block
+  }
+  
+  @media screen and (min-width: 768px) {
+    #lessonBookingContainer .lessonBooking__lesson_description_container--mobile {
+      display:none
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons {
+    margin-top: 15px;
+    padding-top: 10px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container {
+    display: flex
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container.with-wrap {
+    align-items: center;
+    flex-wrap: wrap
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button {
+    align-items: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+    padding: 8px 12px
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button:hover {
+      background:#fff;
+      border: 1px solid #000
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-selected {
+    background: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    padding: 7px 11px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-sold-out {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #ccc
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-sold-out.filter-button-selected {
+    border: 2px solid #000;
+    padding: 7px 11px
+  }
+  
+  @media screen and (min-width: 1200px) {
+    #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-sold-out:hover {
+      border:1px solid #000
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-sold-out .c143__holidayprice--v1,#lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-sold-out .c143__holidaytoggle--v3 {
+    color: #ccc
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-group {
+    border-radius: 0;
+    width: 100%
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container .filter-button.filter-button-group--small {
+    border-radius: 0;
+    height: 42px;
+    width: 50px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container .filter-button-inner-container.filter-button-sold-out {
+    border: 1px solid #b02621;
+    padding: 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container.is-button-group {
+    display: flex;
+    width: 100%
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container.is-button-group .filter-button-inner-container {
+    gap: 0;
+    width: 100%
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container.is-button-group .filter-button-inner-container>:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons .filter-button-container.is-button-group .filter-button-inner-container>:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking .filter-buttons h4.inputfield--error {
+    padding-left: 10px
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons {
+    margin-top: 38px
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons .sctexteditor--bold {
+    color: #333
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__checkbox input+span::before {
+    font-size: 15px;
+    height: 20px;
+    margin-top: 2px;
+    top: unset;
+    transform: unset;
+    width: 20px
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__checkbox label {
+    width: 100%
+  }
+  
+  @media all and (max-width: 1199px) {
+    #lessonBookingContainer .lessonBooking__add_ons__add_on__checkbox label {
+      padding-left:35px
+    }
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content {
+    align-items: center;
+    display: flex
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content--wrappers {
+    width: 100%
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 3px
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnIconAndText {
+    align-items: center;
+    display: flex
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnIconAndText--emr {
+    align-items: center;
+    display: flex
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnIconAndText span {
+    color: #333;
+    line-height: 150%
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnIcon {
+    align-self: flex-start;
+    color: #000;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    margin-right: 7px;
+    min-width: 30px;
+    text-align: center
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnEmrIcon {
+    font-size: unset;
+    margin-right: 7px;
+    min-width: 30px;
+    text-align: center
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnPrices {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnPrices--price {
+    margin-left: 3px;
+    text-align: right
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnPrices--price::before {
+    content: "$"
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnPrices--price.emrAddOnPrice {
+    font-size: 15px
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper .addOnPrices--price__base {
+    margin-top: 4px
+  }
+  
+  #lessonBookingContainer .lessonBooking__add_ons__add_on__content__wrapper--emr_row {
+    margin-top: 11px
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__see_price_in_cart {
+    align-items: end;
+    display: flex;
+    justify-content: space-between
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__prices {
+    display: flex;
+    flex-direction: column
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__prices__row {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__prices__row:first-child {
+    margin-top: 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__prices__row:last-child {
+    margin-bottom: 0
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__prices__row--priceValue::before {
+    content: "$"
+  }
+  
+  #lessonBookingContainer .lessonBooking__total_pricing__prices__row--priceValue.windowPrice {
+    text-decoration-line: line-through
+  }
+  
+  #lessonBookingContainer .lessonBooking .pricingRow--cad {
+    padding-left: 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking .dabEmrIcon {
+    margin-right: 5px
+  }
+  
+  #lessonBookingContainer .lessonBooking .primaryCTA {
+    margin: 30px 0
+  }
+  
+  #lessonBookingContainer button[data-toggle=popover] {
+    margin-left: 8px
+  }
+  
+  @media all and (min-width: 768px) {
+    .lessonBooking__confirmation_modal .shared_modal__container {
+      max-width:524px;
+      width: 100%
+    }
+  }
+  
+  .lessonBooking__confirmation_modal .shared_modal__content {
+    padding: 25px 55px 40px
+  }
+  
+  .lessonBooking__confirmation_modal__title {
+    align-items: center;
+    display: flex;
+    margin-bottom: 13px;
+    text-transform: uppercase
+  }
+  
+  .lessonBooking__confirmation_modal__title .icon-checkout-circlecheck {
+    font-size: 150%;
+    margin-right: 13px
+  }
+  
+  .lessonBooking__confirmation_modal__detail {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .lessonBooking__confirmation_modal__detail p {
+    margin-bottom: 0
+  }
+  
+  .lessonBooking__confirmation_modal__detail__filter_item {
+    display: flex;
+    margin-left: 10px
+  }
+  
+  .lessonBooking__confirmation_modal__detail__filter_item__value {
+    margin-left: 5px;
+    margin-top: 0!important
+  }
+  
+  .lessonBooking__confirmation_modal__detail__add_on {
+    margin-left: 10px;
+    margin-top: 0!important
+  }
+  
+  .lessonBooking__confirmation_modal__footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin-top: 30px
+  }
+  
+  @media all and (min-width: 768px) {
+    .lessonBooking__confirmation_modal__footer {
+      flex-direction:row
+    }
+  }
+  
+  .lessonBooking__confirmation_modal__footer .linkCTA {
+    margin-bottom: 0;
+    margin-top: 40px
+  }
+  
+  @media all and (min-width: 768px) {
+    .lessonBooking__confirmation_modal__footer .linkCTA {
+      margin-right:19px;
+      margin-top: initial
+    }
+  }
+  
+  .lessonBooking__confirmation_modal__footer .primaryCTA {
+    margin: 0 auto;
+    width: 100%
+  }
+  
+  @media all and (min-width: 768px) {
+    .lessonBooking__confirmation_modal__footer .primaryCTA {
+      margin:initial;
+      width: 180px
+    }
+  }
+
+  .main_nav{
+    background-color: white;
+  }
+
+  .main_nav__utility_item{
+    color: unset !important;
+  }
+
+
+  .valueProps-container-inner{
+    flex-direction: column!important;
+  }
+/*
+  .valueProp.valueProp__single{
+    width: 100%!important;
+    padding: 20px 0px 20px 0px!important;
+    border: none;
+  }
+*/
+  .dab_valueProps_border{
+    border: 1px solid #DDD;
+    width: 80%;
+    align-self: center;
+  }
+
+  .dab_number_days_text{
+    color: var(--global-107-d-33-global-success, #107D33);
+    text-align: center;
+
+    /* g styles/g1__success--v1 */
+    font-family: Prompt;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 13px */
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  button.calendarCard__date_selector__arrow.calendarCard__date_selector__prev_arrow.slick-arrow.slick-prev {
+    left: 0;
+    margin-left: -15px;
+  }
+  
+  button.calendarCard__date_selector__arrow.calendarCard__date_selector__next_arrow.slick-arrow.slick-next {
+    right: 0;
+  }
+
+  div.slick-slide.slick-active.slick-current {
+    margin: 0 5px;
+  }
+
+  .slick-slider.slick-initialized {
+    margin: 0 5%;
+  }
+
+  .calendarCard__container{
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .sctexteditor--largebold.lessonBooking__right-col__filter_title {
+    margin-bottom: 0;
+    margin: 10px 0 0px;
+    font-family: Prompt;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  .lessonBooking__right-col__date_selection_container__date-picker{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    position: relative;
+  }
+
+  #calendarCard_date_button_dab{
+    margin-top: unset;
+    margin-bottom: unset;
+    text-transform: unset;
+    background: 0 0;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    z-index: 4;
+  }
+
+  #calendarCard_inputfield_dab{
+    margin-top: unset;
+    margin-bottom: unset;
+    text-transform: unset;
+    color: #545454;
+  }
+
+  #DAB-Lift-Booking-Widget > div.lessonBooking__right-col__date_selection_container{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    position: sticky;
+    transition: padding-top .3s ease,padding-bottom .3s ease;
+    z-index: 1500;
+  }
+
+  .valueProp.valueProp__single{
+    border: none;
+  }
+
+  .valueProp_dab:after{
+    content: "";
+    background: #DDD;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    height: 325px;
+    width: 1px;
+    transform: rotate(90deg);
+  }
+  .inputfieldlabel.verticalDivider{
+    padding: 0 5px;
+  }
+
+  #dab_ticket_selector_title{
+    font-family: Prompt;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 23.8px */
+  }
+
+  #dab_below_addToCart_text_head{
+    text-align: center;
+    font-family: Prompt;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 23.8px */
+    display: block;
+  }
+
+  #dab_below_addToCart_text_bottom{
+    color: var(--global-333333-global-body-copy-gray, #333);
+    text-align: center;
+    /* s styles/sctexteditor */
+    font-family: Prompt;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 19.5px */
+    display: block;
+  }
+  .below_addToCart_text_container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dab_more_ages_container{
+    display: flex;
+    height: 33px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    background: var(--global-eeeeee-global-off-white, #EEE);
+  }
+
+  .dab_more_ages_dropdown_text{
+    color: var(--frl-474-e-52-frl-dark-gray, #474E52);
+    /* L styles/linkcta */
+    font-family: Prompt;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 13px */
+    letter-spacing: 1.04px;
+  }
+
+  .form-group.datePicker.datePicker--modal{
+    margin: 0;
+    line-height: 0px;
+    height: 1px;
+  }
+
+  .bootstrap-datetimepicker-widget .dropdown-menu .usetwentyfour .bottom .pull-right{
+    display: block;
+    inset: 18px 50px auto auto!important;
+  }
+
+
+  .datepicker > p{
+    display: none !important;
+  }

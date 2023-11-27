@@ -1,0 +1,39 @@
+{
+  "name": "Custom Content Script Injector",
+  "description": "An extension to inject JS/CSS files on site pages for DAB tests",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ep4.qa.vailresorts.com/*",
+        "https://ep.qa.vailresorts.com/*",
+        "https://www.epicpass.com/*",
+        "https://www.breckenridge.com/*",
+        "https://www.whistlerblackcomb.com/*",
+        "https://www.breckenridge.com/*",
+        "https://www.vail.com/*"
+      ],
+      "js": [
+        "contentInjector.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/DAB_Lift-Booking-Redesign/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
+
